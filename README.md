@@ -1,8 +1,8 @@
-# Health Guardian AI 🛡️ (Indian Edition)
+# Health Guardian AI 🛡️
 
-**Health Guardian AI** is a professional-grade public health awareness assistant designed for residents and travelers in India. It detects active location risks, presents local disease outbreaks on dynamic map overlays, schedules preventative travel guides, and queries nearby hospital coordinates.
+**Health Guardian AI** is a professional-grade public health awareness assistant designed for residents and travelers globally. It detects active location risks, presents local disease outbreaks on dynamic map overlays, schedules preventative travel guides, and queries nearby hospital coordinates.
 
-It is built to operate under monsoon-spiked vector/waterborne risks (Dengue, Malaria, Leptospirosis, Typhoid, Chikungunya, and TB) and provides instant multilingual support in both English and Hindi.
+It is built to operate under severe vector-borne and waterborne risks (such as Dengue, Malaria, Leptospirosis, Typhoid, Chikungunya, and TB) and provides instant multilingual support including English and Hindi.
 
 ---
 
@@ -16,13 +16,13 @@ Here is the operational logic of the Health Guardian AI assistant system:
 
 ## Key Features
 
-1. **Monsoon Disease Monitoring**: Tracks regional Indian outbreaks (like Dengue and Malaria, as well as Leptospirosis outbreaks in Mumbai, and Chikungunya in Chennai).
+1. **Epidemic & Outbreak Monitoring**: Tracks regional disease outbreaks (like Dengue and Malaria, as well as Leptospirosis and Chikungunya).
 2. **AI Public Health Assistant**: Conversational agent powered by the **Google Gemini API** (`gemini-1.5-flash`) delivering location-sensitive prevention recommendations and clinical guidelines. Includes a high-fidelity local simulator for offline testing.
 3. **Multilingual Interface**: Bilingual translation toggle in **English** and **Hindi (हिंदी)** for local public health accessibility.
 4. **GIS Hospital Locator**: Real-time hospital lookup using the **OpenStreetMap Overpass API** with custom maps showing 24/7 emergency rooms and pediatric clinics.
 5. **Interactive Outbreak Maps**: Visualizes circular outbreak risk ranges and active cases using **Leaflet.js** maps.
 6. **Travel Health Advisor**: Generates custom preventative checklists (vaccine check logs, DEET repellents, water purification) relative to destination risks.
-7. **Emergency Helpline Numbers**: Regional numbers (CATS Ambulance `108`, Health Helpline `104`, Delhi Police `100`, etc.) active in India.
+7. **Emergency Helpline Numbers**: Regional emergency numbers active in various countries and locations.
 
 ---
 

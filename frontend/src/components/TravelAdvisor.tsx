@@ -22,7 +22,8 @@ interface TravelAdvisorProps {
 
 const POPULAR_DESTINATIONS = [
   "New Delhi", "Mumbai", "Bengaluru", "Kolkata", "Chennai", 
-  "Hyderabad", "Kochi", "Jaipur", "Goa", "Srinagar"
+  "Hyderabad", "Kochi", "Jaipur", "Goa", "Srinagar",
+  "New York", "London", "Tokyo", "Sydney", "Cairo", "Rio de Janeiro", "Bangkok", "Nairobi"
 ];
 
 const AVAILABLE_VACCINES = [

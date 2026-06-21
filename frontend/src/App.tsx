@@ -86,7 +86,7 @@ interface DiseaseWiki {
 const TRANSLATIONS: Record<string, Record<string, string>> = {
   en: {
     appTitle: "Health Guardian",
-    subTitle: "Public Health AI (India)",
+    subTitle: "Global Public Health AI",
     home: "Home Dashboard",
     map: "Live Outbreak Map",
     wiki: "Disease Search",
@@ -98,7 +98,7 @@ const TRANSLATIONS: Record<string, Record<string, string>> = {
     riskLevel: "Infectious Risk Level",
     pathogens: "Active Pathogens",
     climate: "Climatic Index",
-    searchPlaceholder: "Search Indian city (e.g. Mumbai, Kochi)...",
+    searchPlaceholder: "Search global cities (e.g. Mumbai, Cairo, New York)...",
     gps: "Simulate GPS",
     emergency: "Emergency Numbers",
     langMode: "Language / भाषा",
@@ -133,7 +133,7 @@ const TRANSLATIONS: Record<string, Record<string, string>> = {
   },
   hi: {
     appTitle: "हेल्थ गार्जियन",
-    subTitle: "सार्वजनिक स्वास्थ्य एआई (भारत)",
+    subTitle: "वैश्विक सार्वजनिक स्वास्थ्य एआई",
     home: "मुख्य डैशबोर्ड",
     map: "लाइव प्रकोप मानचित्र",
     wiki: "बीमारी खोज",
@@ -145,7 +145,7 @@ const TRANSLATIONS: Record<string, Record<string, string>> = {
     riskLevel: "संक्रामक जोखिम स्तर",
     pathogens: "सक्रिय रोगजनक",
     climate: "जलवायु सूचकांक",
-    searchPlaceholder: "भारतीय शहर खोजें (जैसे मुंबई, कोच्चि)...",
+    searchPlaceholder: "वैश्विक शहर खोजें (जैसे मुंबई, काहिरा, न्यूयॉर्क)...",
     gps: "जीपीएस सिमुलेशन",
     emergency: "आपातकालीन नंबर",
     langMode: "भाषा / Language",
@@ -802,7 +802,7 @@ export default function App() {
               {activeTab === 'about' && (
                 <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-5 animate-fade-in text-xs">
                   <h3 className="font-bold text-slate-800 dark:text-slate-200 text-sm flex items-center gap-1.5">
-                    <Shield className="w-5 h-5 text-sky-500" /> About Health Guardian AI (India)
+                    <Shield className="w-5 h-5 text-sky-500" /> About Health Guardian AI
                   </h3>
                   
                   <div className="space-y-3.5 text-slate-700 dark:text-slate-350 leading-relaxed">
