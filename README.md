@@ -86,7 +86,7 @@ The Health Guardian AI agent follows a simple decision-making workflow:
 
 ---
 
-## Getting Startedx`
+## Getting Started
 
 ### Prerequisites
 * **Node.js** v20.19+ or v22.12+
