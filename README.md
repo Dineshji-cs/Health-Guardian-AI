@@ -1,31 +1,31 @@
 # Health Guardian AI 🛡️
 
-Health Guardian AI is an AI-powered public health awareness assistant designed to help travelers and local residents understand infectious disease risks in their current location or travel destination.
+Health Guardian AI is an AI-powered public health awareness assistant that helps travelers and local residents understand infectious disease risks based on their current location or travel destination.
 
-Instead of presenting raw outbreak data, Health Guardian AI gathers relevant health information, analyzes potential risks, and provides clear, actionable recommendations to help users make informed decisions before and during travel.
+Instead of presenting raw outbreak data, the application gathers relevant health information, analyzes potential risks, and provides clear, actionable recommendations to help users make informed decisions before and during travel.
 
 > **Disclaimer:** Health Guardian AI is an educational decision-support tool and is **not** intended to replace professional medical advice, diagnosis, or treatment.
 
 ---
 
-# Problem Statement
+## Problem Statement
 
-Every year, millions of people travel without being aware of infectious disease risks in their destination. Although organizations such as the WHO and national health agencies publish outbreak information, it is often scattered across multiple sources and difficult for the average person to interpret quickly.
+Every year, millions of people travel without being aware of infectious disease risks at their destination. Although organizations such as the WHO and national health agencies publish outbreak information, it is often scattered across multiple sources and difficult to interpret quickly.
 
-Health Guardian AI addresses this challenge by combining location awareness, outbreak information, AI-generated explanations, and preventive guidance into a single easy-to-use application.
+Health Guardian AI addresses this challenge by combining location awareness, outbreak information, AI-powered explanations, and preventive guidance into a single, easy-to-use application.
 
 ---
 
-# AI Agent Workflow
+## AI Agent Workflow
 
-The Health Guardian AI agent follows a simple decision-making workflow:
+The Health Guardian AI agent follows this workflow:
 
-1. Receive the user's current location or travel destination.
-2. Gather disease and outbreak information from available data sources.
-3. Analyze potential health risks for that location.
-4. Generate easy-to-understand preventive recommendations.
-5. Suggest nearby healthcare facilities.
-6. Present the information with an educational medical disclaimer.
+1. Receives the user's current location or travel destination.
+2. Collects relevant disease and outbreak information.
+3. Analyzes potential health risks for the selected location.
+4. Generates easy-to-understand preventive recommendations.
+5. Suggests nearby healthcare facilities.
+6. Presents the information with an educational medical disclaimer.
 
 ---
 
@@ -35,7 +35,7 @@ The Health Guardian AI agent follows a simple decision-making workflow:
 
 ---
 
-# Key Features
+## Key Features
 
 - 🌍 **Location-Based Disease Awareness**
   - View infectious disease information based on your current location or any searched destination.
@@ -57,7 +57,7 @@ The Health Guardian AI agent follows a simple decision-making workflow:
   - Provides destination-specific travel precautions, vaccination guidance (where applicable), and preventive checklists.
 
 - 🌐 **Multilingual Support**
-  - Available in English and Hindi.
+  - Supports both English and Hindi.
 
 - ☎️ **Emergency Information**
   - Displays regional emergency contact numbers where available.
@@ -66,13 +66,13 @@ The Health Guardian AI agent follows a simple decision-making workflow:
 
 ## Tech Stack
 
-**Backend**
+### Backend
 - FastAPI
 - Python 3.12+
 - HTTPX
 - Pydantic
 
-**Frontend**
+### Frontend
 - React
 - TypeScript
 - Vite
@@ -80,8 +80,8 @@ The Health Guardian AI agent follows a simple decision-making workflow:
 - Leaflet
 - Lucide Icons
 
-**AI**
-- Google Gemini (gemini-1.5-flash)
+### AI
+- Google Gemini (`gemini-1.5-flash`)
 - Local AI simulator for offline development
 
 ---
@@ -136,17 +136,13 @@ The Health Guardian AI agent follows a simple decision-making workflow:
 ## Screenshots
 
 ### Home Dashboard
-
 ![Home](screenshots/home.png)
 
 ### Disease Map
-
-![Map](screenshots/map.png)
+![Disease Map](screenshots/map.png)
 
 ### AI Assistant
-
-![Assistant](screenshots/chat.png)
+![AI Assistant](screenshots/chat.png)
 
 ### Travel Advisor
-
-![Travel](screenshots/travel.png)
+![Travel Advisor](screenshots/travel.png)
