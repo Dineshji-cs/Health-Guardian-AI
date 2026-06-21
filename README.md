@@ -130,3 +130,23 @@ The Health Guardian AI agent follows a simple decision-making workflow:
    npm run dev
    ```
    Open the browser at `http://localhost:5173`.
+
+---
+
+## Screenshots
+
+### Home Dashboard
+
+![Home](screenshots/home.png)
+
+### Disease Map
+
+![Map](screenshots/map.png)
+
+### AI Assistant
+
+![Assistant](screenshots/chat.png)
+
+### Travel Advisor
+
+![Travel](screenshots/travel.png)
