@@ -1,40 +1,92 @@
 # Health Guardian AI 🛡️
 
-**Health Guardian AI** is a professional-grade public health awareness assistant designed for residents and travelers globally. It detects active location risks, presents local disease outbreaks on dynamic map overlays, schedules preventative travel guides, and queries nearby hospital coordinates.
+Health Guardian AI is an AI-powered public health awareness assistant designed to help travelers and local residents understand infectious disease risks in their current location or travel destination.
 
-It is built to operate under severe vector-borne and waterborne risks (such as Dengue, Malaria, Leptospirosis, Typhoid, Chikungunya, and TB) and provides instant multilingual support including English and Hindi.
+Instead of presenting raw outbreak data, Health Guardian AI gathers relevant health information, analyzes potential risks, and provides clear, actionable recommendations to help users make informed decisions before and during travel.
+
+> **Disclaimer:** Health Guardian AI is an educational decision-support tool and is **not** intended to replace professional medical advice, diagnosis, or treatment.
+
+---
+
+# Problem Statement
+
+Every year, millions of people travel without being aware of infectious disease risks in their destination. Although organizations such as the WHO and national health agencies publish outbreak information, it is often scattered across multiple sources and difficult for the average person to interpret quickly.
+
+Health Guardian AI addresses this challenge by combining location awareness, outbreak information, AI-generated explanations, and preventive guidance into a single easy-to-use application.
+
+---
+
+# AI Agent Workflow
+
+The Health Guardian AI agent follows a simple decision-making workflow:
+
+1. Receive the user's current location or travel destination.
+2. Gather disease and outbreak information from available data sources.
+3. Analyze potential health risks for that location.
+4. Generate easy-to-understand preventive recommendations.
+5. Suggest nearby healthcare facilities.
+6. Present the information with an educational medical disclaimer.
 
 ---
 
 ## App Workflow Diagram
 
-Here is the operational logic of the Health Guardian AI assistant system:
-
 ![Health Guardian AI Public Health Workflow](workflow.png)
 
 ---
 
-## Key Features
+# Key Features
 
-1. **Epidemic & Outbreak Monitoring**: Tracks regional disease outbreaks (like Dengue and Malaria, as well as Leptospirosis and Chikungunya).
-2. **AI Public Health Assistant**: Conversational agent powered by the **Google Gemini API** (`gemini-1.5-flash`) delivering location-sensitive prevention recommendations and clinical guidelines. Includes a high-fidelity local simulator for offline testing.
-3. **Multilingual Interface**: Bilingual translation toggle in **English** and **Hindi (हिंदी)** for local public health accessibility.
-4. **GIS Hospital Locator**: Real-time hospital lookup using the **OpenStreetMap Overpass API** with custom maps showing 24/7 emergency rooms and pediatric clinics.
-5. **Interactive Outbreak Maps**: Visualizes circular outbreak risk ranges and active cases using **Leaflet.js** maps.
-6. **Travel Health Advisor**: Generates custom preventative checklists (vaccine check logs, DEET repellents, water purification) relative to destination risks.
-7. **Emergency Helpline Numbers**: Regional emergency numbers active in various countries and locations.
+- 🌍 **Location-Based Disease Awareness**
+  - View infectious disease information based on your current location or any searched destination.
+
+- 🤖 **AI Health Assistant**
+  - AI-powered assistant that explains disease risks, preventive measures, and travel health recommendations in simple language.
+  - Supports Google Gemini with an offline simulator for development and testing.
+
+- 🦟 **Disease Outbreak Monitoring**
+  - Displays outbreak information for diseases such as Dengue, Malaria, Chikungunya, Leptospirosis, Typhoid, Tuberculosis, and other infectious diseases.
+
+- 🗺️ **Interactive Outbreak Map**
+  - Visualizes outbreak locations using Leaflet maps with intuitive risk indicators.
+
+- 🏥 **Nearby Healthcare Facilities**
+  - Locate nearby hospitals and healthcare centers using OpenStreetMap.
+
+- ✈️ **Travel Health Advisor**
+  - Provides destination-specific travel precautions, vaccination guidance (where applicable), and preventive checklists.
+
+- 🌐 **Multilingual Support**
+  - Available in English and Hindi.
+
+- ☎️ **Emergency Information**
+  - Displays regional emergency contact numbers where available.
 
 ---
 
 ## Tech Stack
 
-* **Backend**: FastAPI (Python 3.12+), Pydantic Settings, HTTPX, google-generativeai.
-* **Frontend**: React (TypeScript), Vite, Tailwind CSS, Leaflet Maps, Lucide Icons.
-* **LLM Engine**: Google Gemini (`gemini-1.5-flash`).
+**Backend**
+- FastAPI
+- Python 3.12+
+- HTTPX
+- Pydantic
+
+**Frontend**
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Leaflet
+- Lucide Icons
+
+**AI**
+- Google Gemini (gemini-1.5-flash)
+- Local AI simulator for offline development
 
 ---
 
-## Getting Started
+## Getting Startedx`
 
 ### Prerequisites
 * **Node.js** v20.19+ or v22.12+
